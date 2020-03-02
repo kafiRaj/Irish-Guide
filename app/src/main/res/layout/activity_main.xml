@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আইরিশ"
+        android:textColor="@color/colorAccent"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/shorif_unicode"/>
+
+    <TextView
+        android:id="@+id/textHome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="নার্সিং ভর্তি গাইড"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/shobujunicode"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="-10dp"/>
+
+    <Button
+        android:id="@+id/banglaBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTintMode="screen"
+        android:background="@drawable/ic_back"
+        android:text="বাংলা"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/shorif_unicode"
+        />
+
+    <Button
+        android:id="@+id/englishBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTintMode="screen"
+        android:background="@drawable/ic_back"
+        android:text="ইংরেজি"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/shorif_unicode"
+        />
+
+    <Button
+        android:id="@+id/mathBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTintMode="screen"
+        android:background="@drawable/ic_back"
+        android:text="সাধারণ গণিত"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/shorif_unicode"
+        />
+
+    <Button
+        android:id="@+id/gkBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTintMode="screen"
+        android:background="@drawable/ic_back"
+        android:text="সাধারণ জ্ঞান"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/shorif_unicode"
+        />
+
+
+
+</LinearLayout>

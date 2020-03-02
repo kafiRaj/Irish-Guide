@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/about"
+        android:title="আমাদের সম্পর্কে"
+        />
+
+    <item android:id="@+id/admission"
+        android:title="ভর্তি সংক্রান্ত তথ্য"
+        />
+
+    <item android:id="@+id/contact"
+        android:title="যোগাযোগ"
+        />
+
+    <item android:id="@+id/complain"
+        android:title="মতামত ও অভিযোগ"
+
+        />
+
+
+</menu>

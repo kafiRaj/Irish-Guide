@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".Contact">
+
+    <TextView
+        android:id="@+id/headerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="যোগাযোগ"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/shobujunicode"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/mLogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mlogo" />
+
+        <Button
+            android:id="@+id/mBtn"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/ic_back"
+            android:text="01740-577611"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/shorif_unicode"
+            />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="20dp"
+       android:gravity="center"
+       >
+
+       <ImageView
+           android:id="@+id/fbLogo"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:src="@drawable/fblogo"
+           />
+
+       <Button
+           android:id="@+id/fbBtn"
+           android:layout_width="250dp"
+           android:layout_height="70dp"
+           android:backgroundTintMode="screen"
+           android:background="@drawable/ic_back"
+           android:text="ফেসবুক"
+           android:textColor="#ffff"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           android:layout_marginBottom="10dp"
+           android:layout_marginStart="20dp"
+           android:fontFamily="@font/shorif_unicode"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/emailLogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/gmail"
+            />
+
+        <Button
+            android:id="@+id/emailBtn"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:backgroundTintMode="screen"
+            android:background="@drawable/ic_back"
+            android:text="irishnc.2016@gmail.com"
+            android:textColor="#ffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/shorif_unicode"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

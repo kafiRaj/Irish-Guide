@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".Complain">
+
+    <TextView
+        android:id="@+id/headerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="মতামত/অভিযোগ"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/shobujunicode"
+        />
+
+    <EditText
+        android:id="@+id/contactId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_box"
+        android:hint="আপনার মোবাইল নম্বর/ইমেইল এখানে লিখুন"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/complainId"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_box"
+        android:hint="আপনার মতামত / অভিযোগ এখানে লিখুন"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/btnId"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:backgroundTintMode="screen"
+        android:background="@drawable/ic_back"
+        android:text="সাবমিট করুন"
+        android:textColor="#ffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/shorif_unicode"
+        />
+
+</LinearLayout>
